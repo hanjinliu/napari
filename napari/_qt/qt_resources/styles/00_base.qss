@@ -625,7 +625,7 @@ QTabBar::tab:top:selected {
 }
 
 QWidget[emphasized="true"] QTabBar::tab:top:selected {
-    background: vgradient({{ lighten(secondary, 15) }} - {{ secondary }});
+  background: vgradient({{ lighten(secondary, 15) }} - {{ secondary }});
 }
 
 QTabBar::tab:bottom {
@@ -650,7 +650,7 @@ QTabBar::tab:bottom:selected {
 }
 
 QWidget[emphasized="true"] QTabBar::tab:bottom:selected {
-    background: vgradient({{ lighten(secondary, 15) }} - {{ secondary }});
+  background: vgradient({{ lighten(secondary, 15) }} - {{ secondary }});
 }
 
 /* ----------------- QLabel ------------------ */
